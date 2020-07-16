@@ -4,11 +4,11 @@
   <version>0.0.0</version>
   <description>Package for interface between the ROS and serial port</description>
 
-  <maintainer email="nestor.neto@fieb.org.br">Nestor D. Pereira Neto</maintainer>
+  <maintainer email="nestor-dp@hotmail.com">Nestor D. Pereira Neto</maintainer>
 
   <license>GNU GPL</license>
 
-  <author email="nestor.neto@fieb.org.br">Nestor D. Pereira Neto</author>
+  <author email="nestor-dp@hotmail.com">Nestor D. Pereira Neto</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
