@@ -1,11 +1,4 @@
 <?xml version="1.0"?>
 <launch>
-    <arg name="debug"   default="false" /> 
-    <arg name="respawn" default="false" />
-    <arg unless="$(arg debug)" name="launch_prefix" value="" />
-    <arg if="$(arg debug)" name="launch_prefix" value="gdb -ex run --args" />
-    <arg name="binary_name" default="digisub_laser_control_node" />
-    <node  pkg="digisub_laser_control" type="$(arg binary_name)" name="laser_control" launch-prefix="$(arg launch_prefix)" output="screen">
-      <rosparam command="load" file="$(find digisub_laser_control)/config/digisub_laser_control_param.yaml" />
-    </node>
+
 </launch>

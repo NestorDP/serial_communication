@@ -1,8 +1,2 @@
-speed: 2000
-start_angle: -20
-action_name: "sweep_control"
-
 port: /dev/pts/22
 baud_rate:  9600
-
-# ip_nerian: 192.168.10.10
